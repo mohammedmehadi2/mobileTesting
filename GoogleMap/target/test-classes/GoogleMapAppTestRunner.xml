@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test suite on Android Phone">
+
+    <parameter name="OS" value="Android"/>
+    <parameter name="appType" value="Phone"/>
+    <parameter name="deviceType" value="emulator"/>
+    <parameter name="deviceName" value="Nexus 5"/>
+    <parameter name="version" value="8.0"/>
+    <parameter name="moduleName" value="GoogleMap"/>
+    <parameter name="appName" value="gmap.apk"/>
+
+    <test name="Home page" preserve-order="true">
+        <classes>
+            <class name="testCases.testHomePage"/>
+            <class name="testCases.testSelectRoutePage"/>
+        </classes>
+    </test>
+</suite>

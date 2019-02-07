@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [iOS test suite on iPhone Simulator]">
+  <parameter name="deviceType" value="Simulator"/>
+  <parameter name="OS" value="ios"/>
+  <parameter name="appType" value="iPhone"/>
+  <parameter name="deviceName" value="iPhone 8 Plus"/>
+  <parameter name="version" value="11.0"/>
+  <test name="IOSTest">
+    <classes>
+      <class name="testclasses.TestHomePageItems"/>
+      <class name="testclasses.TestSegments"/>
+      <class name="testclasses.TextFieldsTest"/>
+    </classes>
+  </test> <!-- IOSTest -->
+</suite> <!-- Failed suite [iOS test suite on iPhone Simulator] -->

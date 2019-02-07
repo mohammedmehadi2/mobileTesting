@@ -1,0 +1,1458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="20" passed="20">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report directory: /Users/mohammedmehadi/Desktop/Mahmud/MobileAutomationMehadiios/UiCatalog/target/surefire-reports/html]]>
+    </line>
+  </reporter-output>
+  <suite name="iOS test suite on iPhone Simulator" duration-ms="271788" started-at="2019-01-26T04:58:34Z" finished-at="2019-01-26T05:03:06Z">
+    <groups>
+    </groups>
+    <test name="IOSTest" duration-ms="271788" started-at="2019-01-26T04:58:34Z" finished-at="2019-01-26T05:03:06Z">
+      <class name="testclasses.TestHomePageItems">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="extentSetup" is-config="true" duration-ms="199" started-at="2019-01-25T23:58:34Z" finished-at="2019-01-25T23:58:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@63611043]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report directory: /Users/mohammedmehadi/Desktop/Mahmud/MobileAutomationMehadiios/UiCatalog/target/surefire-reports/html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="setUp" is-config="true" duration-ms="7945" started-at="2019-01-25T23:58:34Z" finished-at="2019-01-25T23:58:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Simulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone 8 Plus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="startExtent" is-config="true" duration-ms="9" started-at="2019-01-25T23:58:42Z" finished-at="2019-01-25T23:58:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclasses.TestHomePageItems.buttonIconCheckTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initializationOfElements()[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="initializationOfElements" is-config="true" duration-ms="8" started-at="2019-01-25T23:58:42Z" finished-at="2019-01-25T23:58:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfElements -->
+        <test-method status="PASS" signature="buttonIconCheckTest()[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="buttonIconCheckTest" duration-ms="2029" started-at="2019-01-25T23:58:42Z" finished-at="2019-01-25T23:58:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buttonIconCheckTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="afterEachTestMethod" is-config="true" duration-ms="1559" started-at="2019-01-25T23:58:44Z" finished-at="2019-01-25T23:58:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=buttonIconCheckTest status=SUCCESS method=TestHomePageItems.buttonIconCheckTest()[pri:0, instance:testclasses.TestHomePageItems@cb5822] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="setUp" is-config="true" duration-ms="7002" started-at="2019-01-25T23:58:46Z" finished-at="2019-01-25T23:58:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Simulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone 8 Plus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initializationOfElements()[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="initializationOfElements" is-config="true" duration-ms="1" started-at="2019-01-25T23:58:53Z" finished-at="2019-01-25T23:58:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfElements -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-01-25T23:58:53Z" finished-at="2019-01-25T23:58:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclasses.TestHomePageItems.controlsButtonCheckTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="controlsButtonCheckTest()[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="controlsButtonCheckTest" duration-ms="2038" started-at="2019-01-25T23:58:53Z" finished-at="2019-01-25T23:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- controlsButtonCheckTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="afterEachTestMethod" is-config="true" duration-ms="1371" started-at="2019-01-25T23:58:55Z" finished-at="2019-01-25T23:58:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=controlsButtonCheckTest status=SUCCESS method=TestHomePageItems.controlsButtonCheckTest()[pri:0, instance:testclasses.TestHomePageItems@cb5822] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="setUp" is-config="true" duration-ms="7032" started-at="2019-01-25T23:58:56Z" finished-at="2019-01-25T23:59:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Simulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone 8 Plus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initializationOfElements()[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="initializationOfElements" is-config="true" duration-ms="0" started-at="2019-01-25T23:59:03Z" finished-at="2019-01-25T23:59:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfElements -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-01-25T23:59:03Z" finished-at="2019-01-25T23:59:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclasses.TestHomePageItems.controlsIconCheckTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="controlsIconCheckTest()[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="controlsIconCheckTest" duration-ms="2034" started-at="2019-01-25T23:59:03Z" finished-at="2019-01-25T23:59:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- controlsIconCheckTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="afterEachTestMethod" is-config="true" duration-ms="1373" started-at="2019-01-25T23:59:05Z" finished-at="2019-01-25T23:59:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=controlsIconCheckTest status=SUCCESS method=TestHomePageItems.controlsIconCheckTest()[pri:0, instance:testclasses.TestHomePageItems@cb5822] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="setUp" is-config="true" duration-ms="7130" started-at="2019-01-25T23:59:07Z" finished-at="2019-01-25T23:59:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Simulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone 8 Plus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="pickersIconCheckText()[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="pickersIconCheckText" duration-ms="2053" started-at="2019-01-25T23:59:14Z" finished-at="2019-01-25T23:59:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pickersIconCheckText -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-01-25T23:59:14Z" finished-at="2019-01-25T23:59:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclasses.TestHomePageItems.pickersIconCheckText() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initializationOfElements()[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="initializationOfElements" is-config="true" duration-ms="0" started-at="2019-01-25T23:59:14Z" finished-at="2019-01-25T23:59:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfElements -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="afterEachTestMethod" is-config="true" duration-ms="1350" started-at="2019-01-25T23:59:16Z" finished-at="2019-01-25T23:59:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pickersIconCheckText status=SUCCESS method=TestHomePageItems.pickersIconCheckText()[pri:0, instance:testclasses.TestHomePageItems@cb5822] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="setUp" is-config="true" duration-ms="6956" started-at="2019-01-25T23:59:17Z" finished-at="2019-01-25T23:59:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Simulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone 8 Plus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="startExtent" is-config="true" duration-ms="1" started-at="2019-01-25T23:59:24Z" finished-at="2019-01-25T23:59:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclasses.TestHomePageItems.searchBarIconCheckTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initializationOfElements()[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="initializationOfElements" is-config="true" duration-ms="0" started-at="2019-01-25T23:59:24Z" finished-at="2019-01-25T23:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfElements -->
+        <test-method status="PASS" signature="searchBarIconCheckTest()[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="searchBarIconCheckTest" duration-ms="2052" started-at="2019-01-25T23:59:24Z" finished-at="2019-01-25T23:59:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBarIconCheckTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="afterEachTestMethod" is-config="true" duration-ms="1337" started-at="2019-01-25T23:59:26Z" finished-at="2019-01-25T23:59:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchBarIconCheckTest status=SUCCESS method=TestHomePageItems.searchBarIconCheckTest()[pri:0, instance:testclasses.TestHomePageItems@cb5822] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="setUp" is-config="true" duration-ms="6720" started-at="2019-01-25T23:59:28Z" finished-at="2019-01-25T23:59:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Simulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone 8 Plus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-01-25T23:59:34Z" finished-at="2019-01-25T23:59:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclasses.TestHomePageItems.textFieldsCheckTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="textFieldsCheckTest()[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="textFieldsCheckTest" duration-ms="2040" started-at="2019-01-25T23:59:34Z" finished-at="2019-01-25T23:59:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textFieldsCheckTest -->
+        <test-method status="PASS" signature="initializationOfElements()[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="initializationOfElements" is-config="true" duration-ms="0" started-at="2019-01-25T23:59:34Z" finished-at="2019-01-25T23:59:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfElements -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="afterEachTestMethod" is-config="true" duration-ms="1278" started-at="2019-01-25T23:59:36Z" finished-at="2019-01-25T23:59:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=textFieldsCheckTest status=SUCCESS method=TestHomePageItems.textFieldsCheckTest()[pri:0, instance:testclasses.TestHomePageItems@cb5822] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="setUp" is-config="true" duration-ms="6891" started-at="2019-01-25T23:59:38Z" finished-at="2019-01-25T23:59:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Simulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone 8 Plus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-01-25T23:59:45Z" finished-at="2019-01-25T23:59:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclasses.TestHomePageItems.textFieldsIconCheckTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initializationOfElements()[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="initializationOfElements" is-config="true" duration-ms="1" started-at="2019-01-25T23:59:45Z" finished-at="2019-01-25T23:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfElements -->
+        <test-method status="PASS" signature="textFieldsIconCheckTest()[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="textFieldsIconCheckTest" duration-ms="2081" started-at="2019-01-25T23:59:45Z" finished-at="2019-01-25T23:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textFieldsIconCheckTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="afterEachTestMethod" is-config="true" duration-ms="1284" started-at="2019-01-25T23:59:47Z" finished-at="2019-01-25T23:59:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=textFieldsIconCheckTest status=SUCCESS method=TestHomePageItems.textFieldsIconCheckTest()[pri:0, instance:testclasses.TestHomePageItems@cb5822] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="setUp" is-config="true" duration-ms="7013" started-at="2019-01-25T23:59:48Z" finished-at="2019-01-25T23:59:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Simulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone 8 Plus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="startExtent" is-config="true" duration-ms="1" started-at="2019-01-25T23:59:55Z" finished-at="2019-01-25T23:59:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclasses.TestHomePageItems.textViewIconCheckTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initializationOfElements()[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="initializationOfElements" is-config="true" duration-ms="0" started-at="2019-01-25T23:59:55Z" finished-at="2019-01-25T23:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfElements -->
+        <test-method status="PASS" signature="textViewIconCheckTest()[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="textViewIconCheckTest" duration-ms="2069" started-at="2019-01-25T23:59:55Z" finished-at="2019-01-25T23:59:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textViewIconCheckTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="afterEachTestMethod" is-config="true" duration-ms="1421" started-at="2019-01-25T23:59:57Z" finished-at="2019-01-25T23:59:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=textViewIconCheckTest status=SUCCESS method=TestHomePageItems.textViewIconCheckTest()[pri:0, instance:testclasses.TestHomePageItems@cb5822] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:testclasses.TestHomePageItems@cb5822]" name="generateReport" is-config="true" duration-ms="16" started-at="2019-01-26T00:03:06Z" finished-at="2019-01-26T00:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- testclasses.TestHomePageItems -->
+      <class name="testclasses.TestSegments">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="setUp" is-config="true" duration-ms="7088" started-at="2019-01-25T23:59:58Z" finished-at="2019-01-26T00:00:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Simulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone 8 Plus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initializing()[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="initializing" is-config="true" duration-ms="2080" started-at="2019-01-26T00:00:06Z" finished-at="2019-01-26T00:00:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializing -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-01-26T00:00:06Z" finished-at="2019-01-26T00:00:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclasses.TestSegments.firstSegmentLeftTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="firstSegmentLeftTest()[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="firstSegmentLeftTest" duration-ms="2548" started-at="2019-01-26T00:00:08Z" finished-at="2019-01-26T00:00:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstSegmentLeftTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="afterEachTestMethod" is-config="true" duration-ms="1264" started-at="2019-01-26T00:00:10Z" finished-at="2019-01-26T00:00:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=firstSegmentLeftTest status=SUCCESS method=TestSegments.firstSegmentLeftTest()[pri:0, instance:testclasses.TestSegments@4b9e13df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="setUp" is-config="true" duration-ms="7115" started-at="2019-01-26T00:00:11Z" finished-at="2019-01-26T00:00:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Simulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone 8 Plus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="startExtent" is-config="true" duration-ms="1" started-at="2019-01-26T00:00:19Z" finished-at="2019-01-26T00:00:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclasses.TestSegments.firstSegmentMidTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initializing()[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="initializing" is-config="true" duration-ms="2076" started-at="2019-01-26T00:00:19Z" finished-at="2019-01-26T00:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializing -->
+        <test-method status="PASS" signature="firstSegmentMidTest()[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="firstSegmentMidTest" duration-ms="2430" started-at="2019-01-26T00:00:21Z" finished-at="2019-01-26T00:00:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstSegmentMidTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="afterEachTestMethod" is-config="true" duration-ms="1344" started-at="2019-01-26T00:00:23Z" finished-at="2019-01-26T00:00:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=firstSegmentMidTest status=SUCCESS method=TestSegments.firstSegmentMidTest()[pri:0, instance:testclasses.TestSegments@4b9e13df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="setUp" is-config="true" duration-ms="7096" started-at="2019-01-26T00:00:24Z" finished-at="2019-01-26T00:00:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Simulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone 8 Plus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-01-26T00:00:31Z" finished-at="2019-01-26T00:00:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclasses.TestSegments.firstSegmentRightTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initializing()[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="initializing" is-config="true" duration-ms="2062" started-at="2019-01-26T00:00:31Z" finished-at="2019-01-26T00:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializing -->
+        <test-method status="PASS" signature="firstSegmentRightTest()[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="firstSegmentRightTest" duration-ms="2555" started-at="2019-01-26T00:00:34Z" finished-at="2019-01-26T00:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstSegmentRightTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="afterEachTestMethod" is-config="true" duration-ms="1342" started-at="2019-01-26T00:00:36Z" finished-at="2019-01-26T00:00:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=firstSegmentRightTest status=SUCCESS method=TestSegments.firstSegmentRightTest()[pri:0, instance:testclasses.TestSegments@4b9e13df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="setUp" is-config="true" duration-ms="6840" started-at="2019-01-26T00:00:37Z" finished-at="2019-01-26T00:00:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Simulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone 8 Plus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initializing()[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="initializing" is-config="true" duration-ms="2080" started-at="2019-01-26T00:00:44Z" finished-at="2019-01-26T00:00:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializing -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-01-26T00:00:44Z" finished-at="2019-01-26T00:00:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclasses.TestSegments.secondSegmentLeftTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="secondSegmentLeftTest()[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="secondSegmentLeftTest" duration-ms="2558" started-at="2019-01-26T00:00:46Z" finished-at="2019-01-26T00:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondSegmentLeftTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="afterEachTestMethod" is-config="true" duration-ms="1270" started-at="2019-01-26T00:00:49Z" finished-at="2019-01-26T00:00:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=secondSegmentLeftTest status=SUCCESS method=TestSegments.secondSegmentLeftTest()[pri:0, instance:testclasses.TestSegments@4b9e13df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="setUp" is-config="true" duration-ms="7113" started-at="2019-01-26T00:00:50Z" finished-at="2019-01-26T00:00:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Simulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone 8 Plus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="startExtent" is-config="true" duration-ms="1" started-at="2019-01-26T00:00:57Z" finished-at="2019-01-26T00:00:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclasses.TestSegments.secondSegmentMidTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initializing()[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="initializing" is-config="true" duration-ms="2125" started-at="2019-01-26T00:00:57Z" finished-at="2019-01-26T00:00:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializing -->
+        <test-method status="PASS" signature="secondSegmentMidTest()[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="secondSegmentMidTest" duration-ms="2407" started-at="2019-01-26T00:00:59Z" finished-at="2019-01-26T00:01:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondSegmentMidTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="afterEachTestMethod" is-config="true" duration-ms="1348" started-at="2019-01-26T00:01:02Z" finished-at="2019-01-26T00:01:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=secondSegmentMidTest status=SUCCESS method=TestSegments.secondSegmentMidTest()[pri:0, instance:testclasses.TestSegments@4b9e13df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="setUp" is-config="true" duration-ms="6967" started-at="2019-01-26T00:01:03Z" finished-at="2019-01-26T00:01:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Simulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone 8 Plus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-01-26T00:01:10Z" finished-at="2019-01-26T00:01:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclasses.TestSegments.secondSegmentRightTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initializing()[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="initializing" is-config="true" duration-ms="2100" started-at="2019-01-26T00:01:10Z" finished-at="2019-01-26T00:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializing -->
+        <test-method status="PASS" signature="secondSegmentRightTest()[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="secondSegmentRightTest" duration-ms="2546" started-at="2019-01-26T00:01:12Z" finished-at="2019-01-26T00:01:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondSegmentRightTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="afterEachTestMethod" is-config="true" duration-ms="1430" started-at="2019-01-26T00:01:15Z" finished-at="2019-01-26T00:01:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=secondSegmentRightTest status=SUCCESS method=TestSegments.secondSegmentRightTest()[pri:0, instance:testclasses.TestSegments@4b9e13df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="setUp" is-config="true" duration-ms="7066" started-at="2019-01-26T00:01:16Z" finished-at="2019-01-26T00:01:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Simulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone 8 Plus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-01-26T00:01:23Z" finished-at="2019-01-26T00:01:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclasses.TestSegments.segmentTabValidation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initializing()[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="initializing" is-config="true" duration-ms="2065" started-at="2019-01-26T00:01:23Z" finished-at="2019-01-26T00:01:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializing -->
+        <test-method status="PASS" signature="segmentTabValidation()[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="segmentTabValidation" duration-ms="2448" started-at="2019-01-26T00:01:25Z" finished-at="2019-01-26T00:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- segmentTabValidation -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclasses.TestSegments@4b9e13df]" name="afterEachTestMethod" is-config="true" duration-ms="1273" started-at="2019-01-26T00:01:28Z" finished-at="2019-01-26T00:01:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=segmentTabValidation status=SUCCESS method=TestSegments.segmentTabValidation()[pri:0, instance:testclasses.TestSegments@4b9e13df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- testclasses.TestSegments -->
+      <class name="testclasses.TextFieldsTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="setUp" is-config="true" duration-ms="7042" started-at="2019-01-26T00:01:29Z" finished-at="2019-01-26T00:01:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Simulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone 8 Plus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="startExtent" is-config="true" duration-ms="1" started-at="2019-01-26T00:01:36Z" finished-at="2019-01-26T00:01:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclasses.TextFieldsTest.firstTextFieldsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initializing()[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="initializing" is-config="true" duration-ms="2096" started-at="2019-01-26T00:01:36Z" finished-at="2019-01-26T00:01:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializing -->
+        <test-method status="PASS" signature="firstTextFieldsTest()[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="firstTextFieldsTest" duration-ms="11897" started-at="2019-01-26T00:01:38Z" finished-at="2019-01-26T00:01:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTextFieldsTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="afterEachTestMethod" is-config="true" duration-ms="1384" started-at="2019-01-26T00:01:50Z" finished-at="2019-01-26T00:01:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=firstTextFieldsTest status=SUCCESS method=TextFieldsTest.firstTextFieldsTest()[pri:0, instance:testclasses.TextFieldsTest@2b98378d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="setUp" is-config="true" duration-ms="7212" started-at="2019-01-26T00:01:51Z" finished-at="2019-01-26T00:01:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Simulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone 8 Plus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="startExtent" is-config="true" duration-ms="1" started-at="2019-01-26T00:01:59Z" finished-at="2019-01-26T00:01:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclasses.TextFieldsTest.fourthTextFieldsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initializing()[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="initializing" is-config="true" duration-ms="2106" started-at="2019-01-26T00:01:59Z" finished-at="2019-01-26T00:02:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializing -->
+        <test-method status="PASS" signature="fourthTextFieldsTest()[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="fourthTextFieldsTest" duration-ms="9504" started-at="2019-01-26T00:02:01Z" finished-at="2019-01-26T00:02:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTextFieldsTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="afterEachTestMethod" is-config="true" duration-ms="1310" started-at="2019-01-26T00:02:10Z" finished-at="2019-01-26T00:02:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fourthTextFieldsTest status=SUCCESS method=TextFieldsTest.fourthTextFieldsTest()[pri:0, instance:testclasses.TextFieldsTest@2b98378d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="setUp" is-config="true" duration-ms="7198" started-at="2019-01-26T00:02:12Z" finished-at="2019-01-26T00:02:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Simulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone 8 Plus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initializing()[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="initializing" is-config="true" duration-ms="2068" started-at="2019-01-26T00:02:19Z" finished-at="2019-01-26T00:02:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializing -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-01-26T00:02:19Z" finished-at="2019-01-26T00:02:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclasses.TextFieldsTest.secondTextFieldsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="secondTextFieldsTest()[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="secondTextFieldsTest" duration-ms="9188" started-at="2019-01-26T00:02:21Z" finished-at="2019-01-26T00:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTextFieldsTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="afterEachTestMethod" is-config="true" duration-ms="1344" started-at="2019-01-26T00:02:30Z" finished-at="2019-01-26T00:02:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=secondTextFieldsTest status=SUCCESS method=TextFieldsTest.secondTextFieldsTest()[pri:0, instance:testclasses.TextFieldsTest@2b98378d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="setUp" is-config="true" duration-ms="6752" started-at="2019-01-26T00:02:31Z" finished-at="2019-01-26T00:02:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Simulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone 8 Plus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initializing()[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="initializing" is-config="true" duration-ms="2067" started-at="2019-01-26T00:02:38Z" finished-at="2019-01-26T00:02:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializing -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-01-26T00:02:38Z" finished-at="2019-01-26T00:02:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclasses.TextFieldsTest.textFieldPageValidation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="textFieldPageValidation()[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="textFieldPageValidation" duration-ms="4969" started-at="2019-01-26T00:02:40Z" finished-at="2019-01-26T00:02:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textFieldPageValidation -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="afterEachTestMethod" is-config="true" duration-ms="1309" started-at="2019-01-26T00:02:45Z" finished-at="2019-01-26T00:02:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=textFieldPageValidation status=SUCCESS method=TextFieldsTest.textFieldPageValidation()[pri:0, instance:testclasses.TextFieldsTest@2b98378d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="setUp" is-config="true" duration-ms="7165" started-at="2019-01-26T00:02:47Z" finished-at="2019-01-26T00:02:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Simulator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iPhone 8 Plus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-01-26T00:02:54Z" finished-at="2019-01-26T00:02:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testclasses.TextFieldsTest.thirdTextFieldsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initializing()[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="initializing" is-config="true" duration-ms="2087" started-at="2019-01-26T00:02:54Z" finished-at="2019-01-26T00:02:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializing -->
+        <test-method status="PASS" signature="thirdTextFieldsTest()[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="thirdTextFieldsTest" duration-ms="9091" started-at="2019-01-26T00:02:56Z" finished-at="2019-01-26T00:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTextFieldsTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testclasses.TextFieldsTest@2b98378d]" name="afterEachTestMethod" is-config="true" duration-ms="1264" started-at="2019-01-26T00:03:05Z" finished-at="2019-01-26T00:03:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=thirdTextFieldsTest status=SUCCESS method=TextFieldsTest.thirdTextFieldsTest()[pri:0, instance:testclasses.TextFieldsTest@2b98378d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- testclasses.TextFieldsTest -->
+    </test> <!-- IOSTest -->
+  </suite> <!-- iOS test suite on iPhone Simulator -->
+</testng-results>
